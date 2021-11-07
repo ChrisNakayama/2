@@ -15,15 +15,8 @@ $(document).ready(function() {
     var millenial = dobInput.getFullYear();
     var r = nameInput.includes("r");
 
-    console.log("Name: " + nameInput); 
-    console.log("Year born: " + millenial); 
-    console.log("Energy color: " + energyColorInput); 
-    console.log("Crime score: " + crimeInputValue); 
-    console.log("Score: " + score); 
 
 
-    //$(".formOne").hide();
-    //$(".intro").hide();
 
     if (r === true) {
       score += 20;
